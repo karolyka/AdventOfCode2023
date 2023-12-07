@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="561bd044-a10a-440a-b087-bcbd7675bc27" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day01/day01.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day02/day02.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day03/day04.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day04/day04.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day05/day05.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day06/day06.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day07/day07.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day08/day08.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day01/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day01/input_test_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day01/input_test_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day02/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day02/input_test_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day03/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day03/input_test_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day04/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day04/input_test_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day05/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day05/input_test_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day06/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day06/input_test_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day07/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day07/input_test_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day08/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day08/input_test_1.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="aoc2023" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2Z4aOakPR8WnkoXHbzXwucmGBRl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build aoc2023.executor": "Run",
+    "Kotlin script (Beta).build.gradle.kts.executor": "Debug",
+    "Kotlin.Day01Kt.executor": "Run",
+    "Kotlin.Day02Kt.executor": "Run",
+    "Kotlin.Day03Kt.executor": "Run",
+    "Kotlin.Day04Kt.executor": "Run",
+    "Kotlin.Day05Kt.executor": "Run",
+    "Kotlin.Day06Kt.executor": "Run",
+    "Kotlin.Day07Kt.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/Karoly_Machalik/IdeaProjects/aoc2023/src/main/resources",
+    "onboarding.tips.debug.path": "/Users/Karoly_Machalik/IdeaProjects/aoc2023/src/main/kotlin/Main.kt",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin" />
+      <recent name="$PROJECT_DIR$/src/main/resources/day03" />
+      <recent name="$PROJECT_DIR$/src/main/resources/day02" />
+      <recent name="$PROJECT_DIR$/src/main/resources/day01" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/day01" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/day02" />
+      <recent name="$PROJECT_DIR$/src/main/resources/day02" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-301ddabe" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="561bd044-a10a-440a-b087-bcbd7675bc27" name="Changes" comment="" />
+      <created>1701429608731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701429608731</updated>
+    </task>
+    <servers />
+  </component>
+</project>
