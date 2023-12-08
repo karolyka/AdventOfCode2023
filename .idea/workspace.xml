@@ -4,43 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="561bd044-a10a-440a-b087-bcbd7675bc27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day01/day01.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day02/day02.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day03/day04.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day04/day04.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day05/day05.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day06/day06.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day07/day07.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day08/day08.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day01/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day01/input_test_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day01/input_test_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day02/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day02/input_test_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day03/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day03/input_test_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day04/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day04/input_test_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day05/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day05/input_test_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day06/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day06/input_test_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day07/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day07/input_test_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day08/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day08/input_test_1.txt" afterDir="false" />
+    <list default="true" id="561bd044-a10a-440a-b087-bcbd7675bc27" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day08/day09.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day09/day09.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day08/input_test_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day08/input_test_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day09/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day09/input_test_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day01/day01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day01/day01.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day02/day02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day02/day02.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day03/day04.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day03/day03.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day04/day04.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day04/day04.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day05/day05.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day05/day05.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day06/day06.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day06/day06.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day07/day07.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day07/day07.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day08/day08.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/day08/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day08/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/day08/input_test_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day08/input_test_1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,10 +81,11 @@
     "Kotlin.Day05Kt.executor": "Run",
     "Kotlin.Day06Kt.executor": "Run",
     "Kotlin.Day07Kt.executor": "Run",
+    "Kotlin.Day08Kt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/Karoly_Machalik/IdeaProjects/aoc2023/src/main/resources",
     "onboarding.tips.debug.path": "/Users/Karoly_Machalik/IdeaProjects/aoc2023/src/main/kotlin/Main.kt",
@@ -114,9 +96,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
+      <recent name="$PROJECT_DIR$/src/main/resources/day08" />
       <recent name="$PROJECT_DIR$/src/main/resources/day03" />
       <recent name="$PROJECT_DIR$/src/main/resources/day02" />
-      <recent name="$PROJECT_DIR$/src/main/resources/day01" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/day01" />
@@ -186,6 +168,30 @@
       <option name="presentableId" value="Default" />
       <updated>1701429608731</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1701945032536</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701945032536</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>

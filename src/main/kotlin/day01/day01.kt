@@ -6,13 +6,8 @@ const val DAY = "01"
 const val TEST = 0
 
 @Suppress("KotlinConstantConditions")
-val INPUT_FILE_NAME = "src/main/resources/day${DAY}/input${
-    when (TEST) {
-        1 -> "_test_1"
-        2 -> "_test_2"
-        else -> ""
-    }
-}.txt"
+val INPUT_FILE_NAME = "src/main/resources/day$DAY/input${if (TEST == 0) "" else "_test_$TEST"}.txt"
+
 
 fun main() {
     val lines = File(INPUT_FILE_NAME).readLines()
