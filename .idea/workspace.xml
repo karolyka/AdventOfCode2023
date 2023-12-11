@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="561bd044-a10a-440a-b087-bcbd7675bc27" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day08/day09.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day09/day09.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day08/input_test_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day08/input_test_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day09/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day09/input_test_1.txt" afterDir="false" />
+    <list default="true" id="561bd044-a10a-440a-b087-bcbd7675bc27" name="Changes" comment="Day 08&#10;&#10;- INPUT_FILE_NAME refactored">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day01/day01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day01/day01.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day02/day02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day02/day02.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day03/day04.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day03/day03.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day04/day04.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day04/day04.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day05/day05.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day05/day05.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day06/day06.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day06/day06.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day07/day07.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day07/day07.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day08/day08.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/day08/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day08/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/day08/input_test_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day08/input_test_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day09/day09.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day09/day09.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/day09/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day09/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/day09/input_test_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day09/input_test_1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +69,7 @@
     "Kotlin.Day06Kt.executor": "Run",
     "Kotlin.Day07Kt.executor": "Run",
     "Kotlin.Day08Kt.executor": "Run",
+    "Kotlin.Day09Kt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -176,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701945032536</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day 08&#10;&#10;- INPUT_FILE_NAME refactored">
+      <option name="closed" value="true" />
+      <created>1702024289875</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702024289875</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +188,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Day 08&#10;&#10;- INPUT_FILE_NAME refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 08&#10;&#10;- INPUT_FILE_NAME refactored" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day09/day09.kt</url>
+          <line>33</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day09/day09.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
