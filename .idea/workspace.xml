@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="561bd044-a10a-440a-b087-bcbd7675bc27" name="Changes" comment="Day 09">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day10/day10.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day10/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day10/input_test_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day10/input_test_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day10/input_test_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day10/input_test_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day10/input_test_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day10/input_test_6.txt" afterDir="false" />
+    <list default="true" id="561bd044-a10a-440a-b087-bcbd7675bc27" name="Changes" comment="Day 10">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day11/day11.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day11/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day11/input_test_1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,24 +70,25 @@
     "Kotlin.Day07Kt.executor": "Run",
     "Kotlin.Day08Kt.executor": "Run",
     "Kotlin.Day09Kt.executor": "Run",
-    "Kotlin.Day10Kt.executor": "Debug",
+    "Kotlin.Day10Kt.executor": "Run",
+    "Kotlin.Day11Kt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/Karoly_Machalik/IdeaProjects/aoc2023/src/main/resources/day10",
+    "last_opened_file_path": "/Users/Karoly_Machalik/IdeaProjects/aoc2023/src/main/resources/day11",
     "onboarding.tips.debug.path": "/Users/Karoly_Machalik/IdeaProjects/aoc2023/src/main/kotlin/Main.kt",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/day11" />
       <recent name="$PROJECT_DIR$/src/main/resources/day10" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
       <recent name="$PROJECT_DIR$/src/main/resources/day08" />
-      <recent name="$PROJECT_DIR$/src/main/resources/day03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/day01" />
@@ -186,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702288856895</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Day 10">
+      <option name="closed" value="true" />
+      <created>1702395665164</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702395665164</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +208,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Day 08&#10;&#10;- INPUT_FILE_NAME refactored" />
     <MESSAGE value="Day 09" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 09" />
+    <MESSAGE value="Day 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 10" />
   </component>
 </project>
