@@ -10,7 +10,6 @@ const val TEST = 0
 @Suppress("KotlinConstantConditions")
 val INPUT_FILE_NAME = "src/main/resources/day$DAY/input${if (TEST == 0) "" else "_test_$TEST"}.txt"
 
-
 data class Position(val line: Int, val char: Int)
 
 data class IntWithPosition(val lineIndex: Int, val range: IntRange, val value: Int) {
@@ -19,7 +18,7 @@ data class IntWithPosition(val lineIndex: Int, val range: IntRange, val value: I
         return (range.first > 0 && line[range.first - 1].isSymbol()) ||
                 (range.last < line.length - 1 && line[range.last + 1].isSymbol()) ||
                 (lineIndex > 0 && lines[lineIndex - 1].wideSubstring(range).containSymbol()) ||
-                (lineIndex < lines.size - 1 && lines[lineIndex + 1].wideSubstring(range).containSymbol())
+                (lineIndex < lines.lastIndex && lines[lineIndex + 1].wideSubstring(range).containSymbol())
     }
 
     fun isAdjacentToGearSymbol(lines: List<String>): List<Position> {
@@ -37,7 +36,7 @@ data class IntWithPosition(val lineIndex: Int, val range: IntRange, val value: I
                 .allIndexOf('*')
                 .forEach { positions.add(Position(prevIndex, extendRange.first + it)) }
         }
-        if (lineIndex < lines.size - 1) {
+        if (lineIndex < lines.lastIndex) {
             val nextIndex = lineIndex + 1
             val nextLine = lines[nextIndex]
             val extendRange = range.extend(nextLine)

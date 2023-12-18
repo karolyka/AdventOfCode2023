@@ -17,10 +17,10 @@ fun main() {
         var test = intList
         while (test.any { it != 0 }) {
             firstAndLastElements.add(test.first() to test.last())
-            test = (0 until test.size - 1).map { test[it + 1] - test[it] }
+            test = (0 until test.lastIndex).map { test[it + 1] - test[it] }
         }
 
-        val intProgression = (firstAndLastElements.size - 1) downTo 0
+        val intProgression = (firstAndLastElements.lastIndex) downTo 0
         val extrapolatedNext = intProgression.sumOf { firstAndLastElements[it].second }
 
         var extrapolatedPrior = 0

@@ -10,7 +10,6 @@ const val TEST = 0
 @Suppress("KotlinConstantConditions")
 val INPUT_FILE_NAME = "src/main/resources/day$DAY/input${if (TEST == 0) "" else "_test_$TEST"}.txt"
 
-
 const val CARDMAP = "0123456789ABC"
 const val JOKER = 'J'
 

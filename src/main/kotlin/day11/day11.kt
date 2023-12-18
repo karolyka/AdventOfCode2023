@@ -32,7 +32,7 @@ fun main() {
     println("Task02: $task02")
 }
 
-private fun getDistances(universe01: List<Galaxy>) = (0..<universe01.size - 1).map { a ->
+private fun getDistances(universe01: List<Galaxy>) = (0..<universe01.lastIndex).map { a ->
     val galaxyA = universe01[a]
     ((a + 1)..<universe01.size).map { b ->
         val galaxyB = universe01[b]
@@ -48,7 +48,7 @@ private fun expandUniverse(lines: List<String>, galaxies: List<Galaxy>, expandBy
             newGalaxies.filter { it.column >= column }.forEach { it.column += expandBy }
     }
 
-    ((lines.size - 1) downTo 1).forEach { row ->
+    ((lines.lastIndex) downTo 1).forEach { row ->
         if (lines[row].all { it == SPACE })
             newGalaxies.filter { it.row >= row }.forEach { it.row += expandBy }
     }

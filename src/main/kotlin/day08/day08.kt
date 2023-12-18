@@ -33,7 +33,7 @@ private fun task01(nodeMap: Map<String, Node>, instructions: String): Int {
     var steps = 0
     val maxInstructions = instructions.length
     while (node.key != "ZZZ") {
-        println("$steps -> ${steps % maxInstructions}")
+//        println("$steps -> ${steps % maxInstructions}")
         val direction = instructions[(steps % maxInstructions)]
 
         val nodeKey = if (direction == 'L') node.left else node.right
@@ -51,7 +51,7 @@ private fun task02(nodeMap: Map<String, Node>, instructions: String): Long {
         var node = it
         var steps = 0
         while (!node.key.endsWith('Z')) {
-            println("$steps -> ${steps % maxInstructions}")
+//            println("$steps -> ${steps % maxInstructions}")
             val direction = instructions[(steps % maxInstructions)]
 
             val nodeKey = if (direction == 'L') node.left else node.right

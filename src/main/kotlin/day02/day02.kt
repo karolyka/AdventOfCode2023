@@ -9,7 +9,6 @@ const val TEST = 0
 @Suppress("KotlinConstantConditions")
 val INPUT_FILE_NAME = "src/main/resources/day$DAY/input${if (TEST == 0) "" else "_test_$TEST"}.txt"
 
-
 data class Cubes(val red: Int, val green: Int, val blue: Int) {
     operator fun compareTo(other: Cubes): Int {
         return max(max(red.compareTo(other.red), green.compareTo(other.green)), blue.compareTo(other.blue))

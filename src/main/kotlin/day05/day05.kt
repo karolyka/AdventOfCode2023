@@ -12,7 +12,6 @@ private val whiteSpace = "\\s+".toRegex()
 @Suppress("KotlinConstantConditions")
 val INPUT_FILE_NAME = "src/main/resources/day$DAY/input${if (TEST == 0) "" else "_test_$TEST"}.txt"
 
-
 enum class Category {
     NOTHING, SEED, SOIL, FERTILIZER, WATER, LIGHT, TEMPERATURE, HUMIDITY, LOCATION
 }

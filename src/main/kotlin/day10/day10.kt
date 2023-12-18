@@ -75,8 +75,8 @@ class Field(lines: List<String>) {
     private var startElement = allField.first { it.pipe == Pipe.START }.also { it.steps = 0 }
     private var steps = 0
 
-    private val maxRow: Int = field.size - 1
-    private val maxColumn: Int = field.first().size - 1
+    private val maxRow: Int = field.lastIndex
+    private val maxColumn: Int = field.first().lastIndex
 
     fun dijkstra() {
         @Suppress("ControlFlowWithEmptyBody")
@@ -249,11 +249,9 @@ fun main() {
 
     val field = Field(lines)
 
-
     field.dijkstra()
     val task01 = field.getLongestPathLength() // 6690
     println("Task01: $task01")
-
 
     field.markLongestRoute()
     field.markInside()

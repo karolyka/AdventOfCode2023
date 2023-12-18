@@ -31,7 +31,7 @@ class Springs private constructor(val conditions: String, val counts: List<Int>)
             val lenForLefts = if (counts.size == 1)
                 0
             else
-                counts.subList(1, counts.size).sum() + counts.size - 1
+                counts.subList(1, counts.size).sum() + counts.lastIndex
             val len = (conditions.length - lenForLefts).let {
                 if (it < conditions.length && conditions[it] == DAMAGED)
                     it - 1

@@ -9,7 +9,6 @@ const val TEST = 0
 @Suppress("KotlinConstantConditions")
 val INPUT_FILE_NAME = "src/main/resources/day$DAY/input${if (TEST == 0) "" else "_test_$TEST"}.txt"
 
-
 private val whiteSpace = "\\s+".toRegex()
 
 data class Card(val id: Int, val winning: Set<Int>, val numbers: Set<Int>) {
@@ -18,6 +17,7 @@ data class Card(val id: Int, val winning: Set<Int>, val numbers: Set<Int>) {
 }
 
 infix fun Int.pow(exponent: Int): Int = toDouble().pow(exponent).toInt()
+
 fun main() {
     val lines = File(INPUT_FILE_NAME).readLines()
     val cards = lines.map { it.toCard() }
