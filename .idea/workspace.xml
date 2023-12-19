@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="561bd044-a10a-440a-b087-bcbd7675bc27" name="Changes" comment="Day 13 (+ refactor)">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day14/day14.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day14/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day14/input_test_1.txt" afterDir="false" />
+    <list default="true" id="561bd044-a10a-440a-b087-bcbd7675bc27" name="Changes" comment="Day 14">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day15/day15.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day15/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day15/input_test_1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,41 +57,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build aoc2023.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin script (Beta).build.gradle.kts.executor&quot;: &quot;Debug&quot;,
-    &quot;Kotlin.Day01Kt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Day02Kt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Day03Kt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Day04Kt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Day05Kt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Day06Kt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Day07Kt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Day08Kt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Day09Kt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Day10Kt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Day11Kt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Day12Kt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Day13Kt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Day14Kt.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Karoly_Machalik/IdeaProjects/aoc2023/src/main/resources/day08&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/Karoly_Machalik/IdeaProjects/aoc2023/src/main/kotlin/Main.kt&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build aoc2023.executor": "Run",
+    "Kotlin script (Beta).build.gradle.kts.executor": "Debug",
+    "Kotlin.Day01Kt.executor": "Run",
+    "Kotlin.Day02Kt.executor": "Run",
+    "Kotlin.Day03Kt.executor": "Run",
+    "Kotlin.Day04Kt.executor": "Run",
+    "Kotlin.Day05Kt.executor": "Run",
+    "Kotlin.Day06Kt.executor": "Run",
+    "Kotlin.Day07Kt.executor": "Run",
+    "Kotlin.Day08Kt.executor": "Run",
+    "Kotlin.Day09Kt.executor": "Run",
+    "Kotlin.Day10Kt.executor": "Run",
+    "Kotlin.Day11Kt.executor": "Run",
+    "Kotlin.Day12Kt.executor": "Run",
+    "Kotlin.Day13Kt.executor": "Run",
+    "Kotlin.Day14Kt.executor": "Run",
+    "Kotlin.Day15Kt.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/Karoly_Machalik/IdeaProjects/aoc2023/src/main/resources/day15",
+    "onboarding.tips.debug.path": "/Users/Karoly_Machalik/IdeaProjects/aoc2023/src/main/kotlin/Main.kt",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/day15" />
       <recent name="$PROJECT_DIR$/src/main/resources/day08" />
       <recent name="$PROJECT_DIR$/src/main/resources/day13" />
       <recent name="$PROJECT_DIR$/src/main/resources/day12" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/resources/day11" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/day01" />
@@ -217,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702897753813</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Day 14">
+      <option name="closed" value="true" />
+      <created>1702975129068</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702975129068</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +248,8 @@
     <MESSAGE value="Day 11" />
     <MESSAGE value="Day 12" />
     <MESSAGE value="Day 13 (+ refactor)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 13 (+ refactor)" />
+    <MESSAGE value="Day 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -248,29 +258,6 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/day08/day08.kt</url>
           <line>60</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/day14/day14.kt</url>
-          <line>231</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/day14/day14.kt</url>
-          <line>76</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/day14/day14.kt</url>
-          <line>75</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/day14/day14.kt</url>
-          <line>70</line>
-          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
